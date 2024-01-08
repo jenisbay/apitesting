@@ -99,7 +99,7 @@ public class RestApiTests {
     }
 
     @Test
-    public void testUserById() {
+    public void testGetUserById() {
         RestAssured.given()
                 .pathParam("id", 5)
                 .when()
