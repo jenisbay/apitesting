@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Suite 1">
+<suite name="API Test Suite">
 
-    <test name="Carts Tests" parallel="methods">
-        <classes>
-            <class name="com.testing.tests.CartsTests"/>
-        </classes>
-    </test>
-
-    <test name="Image Tests" parallel="methods">
-        <classes>
-            <class name="com.testing.tests.ImageTests"/>
-        </classes>
-    </test>
-
-    <test name="Rest API Tests" parallel="methods">
+    <test name="Rest API Tests">
         <classes>
             <class name="com.testing.tests.RestApiTests"/>
         </classes>
     </test>
 
-    <test name="Restful Booking API Tests" parallel="methods">
+    <test name="Restful Booking API Tests">
         <classes>
             <class name="com.testing.tests.RestfulBookingTests"/>
         </classes>
